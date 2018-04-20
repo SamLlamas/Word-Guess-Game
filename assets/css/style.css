@@ -9,6 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #000;
+    overflow: hidden;
 }
 
 .frame {
@@ -194,13 +195,7 @@ body {
                 transform: translate(-50%, 1600%);
     }
 }
-.retro{
-    position: absolute;
-    height: 300;
-    width: 300;
-    top: 34%;
-    margin: auto;
-}
+
 
 .capatv {
     animation: 0.1s normal parpadeo infinite;
@@ -258,12 +253,12 @@ body {
 .centro {
     position: absolute;
     top: 0;
-    bottom: 0;
     right: 0;
     margin: auto;
     width:100%;
     z-index: 105;
     text-align:center;
+    overflow: visible;
 }
 
 .absolom {
@@ -294,12 +289,41 @@ body {
     -webkit-filter: drop-shadow(2px 2px 15px #f008b7);
 }
 
-.container{
+.retro{
+
     position: absolute;
-    margin-top: 5px;
+    margin: auto;
+    height: auto;
+    width: auto;
     font-family: 'Audiowide', cursive;
+        position: absolute;
+    margin-top: 30px ;
 }
+
+#hangman{
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+#blank, #letters, #header{
+    text-align: center;
+
+}
+
+ 
 #letters{
     margin-top: 5px;
-    font-family: 'Audiowide', cursive;
+
 }
+
+#blank{
+    margin: 30px 0px 20px 0px;
+
+}
+
+audio{
+    display: none !important;
+    height: 0;
+}
+    

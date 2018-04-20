@@ -68,3 +68,5 @@ document.onkeyup = function(event) {
     
 }
 
+var x = document.getElementById("chill");
+x.volume = 0.05;

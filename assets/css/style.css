@@ -274,7 +274,7 @@ body {
     -webkit-text-stroke: 0.5px #8fdcea;
     background-clip: text;
     -webkit-background-clip: text;
-    background-image: -webkit-linear-gradient(top, #000000 0%, #8fdcea 27%, #e8e8e8 55%, #891f68 71%, #ef379f 82%, #ff59e0 100%);
+    background-image: -webkit-linear-gradient(top, #203eeb 0%, #8fdcea 27%, #891f68 55%, #f008b7 71%, #ef379f 82%, #ff59e0 100%);
     filter: drop-shadow(2px 2px 15px #8fdcea);
     -webkit-filter: drop-shadow(2px 2px 15px #8fdcea);
 }
@@ -297,7 +297,9 @@ body {
 .container{
     position: absolute;
     margin-top: 5px;
+    font-family: 'Audiowide', cursive;
 }
 #letters{
     margin-top: 5px;
+    font-family: 'Audiowide', cursive;
 }

@@ -7,12 +7,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="assets/javascript/game.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    
+    
 </head>
 <body>
-    <img src="assets/images/hang0.gif" alt="hangman"/>
-    
+    <div class="frame">
+        <div class="tree tree--left"></div>
+           <div class="tree tree--left"></div>
+           <div class="tree tree--left"></div>
+           <div class="tree tree--left"></div>
+           <div class="tree tree--right"></div>
+           <div class="tree tree--right"></div>
+           <div class="tree tree--right"></div>
+           <div class="tree tree--right"></div>
+           <div class="road">
+             
+             <div class="road-line"></div>
+             <div class="road-line"></div>
+             <div class="road-line"></div>
+             <div class="road-line"></div>
+           </div>
+        </div>
+        <div class="centro">
+            <h1 class="absolom">Sam's</h1>
+            <h2 class="consulting">Hangman game</h2>
+        </div>
+         <img id="hang" class="retro" src="assets/images/hang10.gif" alt="hangman"/>
 
+         <div class="container">
+             <h2>
+                 Attempted letters:
+             </h2>
+             <p id = "letters">
+             </p>
+         </div>
+
+
+    
+         <script src="assets/javascript/game.js"></script>
     
 </body>
 </html>
